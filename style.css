@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    background-color: #F8F1E8;
+    color: #2E2A26;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px 8%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    width: 70px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 0;
+    list-style: none;
+}
+
+nav a,
+nav li .lien-inactif {
+    color: #6B3E2E;
+    text-decoration: none;
+}
+
+.lien-inactif {
+    padding: 0;
+    border: 0;
+    background: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+#accueil {
+    display: flex;
+    min-height: 420px;
+    align-items: center;
+    padding: 40px 10%;
+    background-color: #EAD8C3;
+    background-image: url("portfolio/images/couverture-pexels-fotios-photos-918327.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.accueil-texte {
+    max-width: 450px;
+    padding: 25px;
+    background-color: rgba(248, 241, 232, 0.85);
+}
+
+h1,
+h2,
+h3 {
+    color: #6B3E2E;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+.bouton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 18px;
+    border: 0;
+    background-color: #6B3E2E;
+    color: white;
+    font: inherit;
+    text-decoration: none;
+    cursor: default;
+}
+
+.bouton-secondaire {
+    margin-left: 8px;
+    background-color: #D8935C;
+    color: #2E2A26;
+}
+
+.bouton:hover {
+    opacity: 0.8;
+}
+
+#promesses {
+    padding: 60px 10%;
+}
+
+#promesses h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.texte-promesses {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.promesses-contenu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.photo-promesses {
+    width: 45%;
+    min-width: 250px;
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.promesses-contenu > div {
+    flex: 1 1 250px;
+}
+
+#services {
+    padding: 50px 10%;
+    background-color: #EAD8C3;
+}
+
+#services h2 {
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.services article {
+    flex: 1 1 220px;
+    padding: 15px;
+    background-color: #F8F1E8;
+}
+
+.services article .bouton {
+    display: table;
+    margin: 10px auto 5px;
+}
+
+.services img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+#realisations {
+    padding: 50px 10%;
+}
+
+#realisations h2,
+.texte-realisations {
+    text-align: center;
+}
+
+.texte-realisations {
+    margin-bottom: 30px;
+}
+
+.produits {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.produits article {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 15px;
+    background-color: white;
+}
+
+.produits article:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.produits article div {
+    flex: 1 1 220px;
+}
+
+.produits img {
+    flex: 1 1 250px;
+    width: 45%;
+    height: 220px;
+    object-fit: cover;
+}
+
+#temoignages {
+    padding: 50px 10%;
+    background-color: #EAD8C3;
+}
+
+#temoignages h2,
+.texte-temoignages {
+    text-align: center;
+}
+
+.avis-clients {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.avis-clients article {
+    flex: 1 1 300px;
+    padding: 20px;
+    background-color: #F8F1E8;
+}
+
+.avis-clients h3 {
+    margin-bottom: 5px;
+}
+
+.etoiles {
+    color: #6B3E2E;
+    font-size: 20px;
+}
