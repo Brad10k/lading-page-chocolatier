@@ -61,6 +61,11 @@ nav li .lien-inactif {
 .accueil-texte {
     padding: 25px;
     background-color: rgba(248, 241, 232, 0.85);
+    text-align: center;
+}
+
+.accueil-texte p {
+    text-align: left;
 }
 
 h1,
@@ -90,6 +95,12 @@ h1 {
     margin-left: 8px;
     background-color: #D8935C;
     color: #2E2A26;
+}
+
+#accueil .bouton {
+    box-sizing: border-box;
+    width: 170px;
+    text-align: center;
 }
 
 .bouton:hover {
